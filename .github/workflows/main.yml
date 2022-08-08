@@ -37,7 +37,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script with add-mask
         run: echo "::add-mask::Mona The Octocat"
-        jobs:
   bash-example:
     runs-on: ubuntu-latest
     env:
