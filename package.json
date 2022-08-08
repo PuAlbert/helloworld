@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuAlbert/helloworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PuAlbert/helloworld/issues"
+  },
+  "homepage": "https://github.com/PuAlbert/helloworld#readme"
+}
