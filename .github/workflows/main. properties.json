@@ -1,0 +1,13 @@
+{
+    "name": "albert workflow",
+    "description": "my workflow",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.js$"
+    ]
+}
