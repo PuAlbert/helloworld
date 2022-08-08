@@ -3,7 +3,7 @@
     "description": "my workflow",
     "iconName": "example-icon",
     "categories": [
-        "Go"
+        "Node"
     ],
     "filePatterns": [
         "package.json$",
