@@ -19,8 +19,6 @@ jobs:
         with:
           node-version: "14"
           registry-url: 'https://npm.pkg.github.com/PuAlbert'
-      - run: npm ci
-        working-directory: ./npkg/
       - run: npm publish
         working-directory: ./npkg/
         env: 
