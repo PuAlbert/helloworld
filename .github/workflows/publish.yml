@@ -11,9 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: echo secret script
-        run: |
-          echo ${{ secrets.ALBERT_SEC1 }}
-          echo ${{ secrets.NPM_GIT_TOKEN }}
+        run: echo ${{ secrets.NPM_GIT_TOKEN }}
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
