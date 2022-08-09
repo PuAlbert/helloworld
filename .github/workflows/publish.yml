@@ -20,10 +20,10 @@ jobs:
           node-version: "14"
           registry-url: 'https://npm.pkg.github.com'
       - name: publish to repo
-        working-directory: ./npkg/
-        run: | 
+        run: |
           echo "@PuAlbert:registry=https://npm.pkg.github.com" > .npmrc
           echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" >> .npmrc
-          npm publish
         env: 
           NODE_AUTH_TOKEN: ${{secrets.NPM_GIT_TOKEN}}
+      - run: npm publish
+        working-directory: ./npkg/
