@@ -1,0 +1,27 @@
+name: Albert's Publish 
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: echo secret script
+        run: |
+          echo ${{ secrets.ALBERT_SEC1 }}
+          echo ${{ secrets.ALBERT_STAGE_SEC1 }}
+          echo ${{ secrets.NPM_GIT_TOKEN }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          registry-url: 'https://npm.pkg.github.com/PuAlbert'
+      - run: npm ci
+        working-directory: ./npkg/
+      - run: npm publish
+        working-directory: ./npkg/
+        env: 
+          NODE_AUTH_TOKEN: ${{secrets.NPM_GIT_TOKEN}}
