@@ -13,7 +13,6 @@ jobs:
       - name: echo secret script
         run: |
           echo ${{ secrets.ALBERT_SEC1 }}
-          echo ${{ secrets.ALBERT_STAGE_SEC1 }}
           echo ${{ secrets.NPM_GIT_TOKEN }}
       - uses: actions/setup-node@v2
         with:
