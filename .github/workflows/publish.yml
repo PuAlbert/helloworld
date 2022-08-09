@@ -24,3 +24,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_GIT_TOKEN }}
       - run: npm publish
         working-directory: ./npkg/
+        env: 
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_GIT_TOKEN }}
