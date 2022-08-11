@@ -21,6 +21,8 @@ jobs:
         uses: mathieudutour/github-tag-action@v6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          custom_release_rules: nb:patch,albert:major,fuck:minor
+
           # dry_run: true
 
       - name: Update package version
