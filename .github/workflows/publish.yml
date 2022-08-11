@@ -24,7 +24,6 @@ jobs:
           # custom_release_rules: nb:patch,albert:major,fuck:minor
           # dry_run: true
 
-
       - name: Update package version
         uses: reedyuk/npm-version@1.1.1
         with:
