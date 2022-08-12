@@ -1,3 +1,3 @@
 class A {
-    private a: string;
+  private a: string;
 }
