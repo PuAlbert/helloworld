@@ -1,22 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-echo 6666;
-# 忽略merge request
-MERGE_MSG=`cat $1 | egrep '^Merge branch*'`
 
-if [ "$MERGE_MSG" != "" ]; then
-    echo "ok123"
-    exit 0
-fi
 
-COMMIT_MSG=`cat $1 | egrep "^(feat|fix|perf|other)(\(\w+\))?:\s(\S|\w)+"`
-
-if [ "$COMMIT_MSG" = "" ]; then
-    echo "Commit Message Irregular，Please check!\n"
-    exit 2
-fi
-
-if [ ${#COMMIT_MSG} -lt 15 ]; then
-    echo "Commit Message Too Short，Please show me more detail!\n"
-    exit 3
-fi
+npm run commitlint
