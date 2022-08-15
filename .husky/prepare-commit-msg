@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-echo 6666
+echo 6666;
 # 忽略merge request
 MERGE_MSG=`cat $1 | egrep '^Merge branch*'`
 
