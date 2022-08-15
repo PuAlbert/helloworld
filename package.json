@@ -7,7 +7,6 @@
     "test": "jest --watch",
     "test:report": "jest --coverage",
     "prepare": "husky install",
-    "commitlint": "commitlint --config commitlint.config.js -e -v",
     "format": "prettier --write ."
   },
   "repository": {
