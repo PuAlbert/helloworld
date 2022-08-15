@@ -4,7 +4,6 @@
 # 忽略merge request
 MERGE_MSG=`cat $1 | egrep '^Merge branch*'`
 
-
 if [ "$MERGE_MSG" != "" ]; then
     exit 0
 fi
