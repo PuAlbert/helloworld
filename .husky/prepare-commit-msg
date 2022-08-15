@@ -5,6 +5,7 @@
 MERGE_MSG=`cat $1 | egrep '^Merge branch*'`
 
 if [ "$MERGE_MSG" != "" ]; then
+    echo "ok123"
     exit 0
 fi
 
