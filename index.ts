@@ -1,3 +1,6 @@
 class A {
-  private a: string;
+  constructor(a: string) {
+    this.a = a
+  }
+  public a: string;
 }
