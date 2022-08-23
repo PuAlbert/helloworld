@@ -1,3 +1,7 @@
 console.log("core models test");
 
-let   aaa = 3;
+const  aaa = 3;
+
+let a = aaa * 3;
+
+console.log(a);

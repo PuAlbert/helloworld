@@ -28,7 +28,7 @@ jobs:
         uses: reedyuk/npm-version@1.1.1
         with:
           version: ${{ steps.tag_version.outputs.new_version }}
-      # - run: npm publish
-      #   working-directory: ./npkg/
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.ALBERT_SEC1 }}
+      - run: npm publish
+        working-directory: ./npkg/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.ALBERT_SEC1 }}
