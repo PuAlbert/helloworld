@@ -1,0 +1,21 @@
+{
+    "files": ["customError3Middleware.ts"],
+    "compileOnSave": true,
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+		"allowJs": true,
+		"target": "es6",
+		"lib": ["ES6", "esnext", "dom"],
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"watch": false,
+		"strict": true,
+		"removeComments": true,
+		"baseUrl": "../",
+    },
+    "include": ["../global.d.ts"],
+}
