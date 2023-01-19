@@ -11,6 +11,7 @@ handler.use(httpErrorHandler())
 
 // when Lambda runs the handler...
 handler({}, {}, (_, response) => {
+    console.log(13333, response.headers);
     t.is(response.headers['Access-Control-Allow-Origin'], '*')
     t.deepEqual(response, {
         statusCode: 422,

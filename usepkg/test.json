@@ -1,0 +1,256 @@
+{
+    "event": {
+        "Records": [
+            {
+                "messageId": "fe57e2f2-2caf-4339-bf6f-72a21f9b51a4",
+                "receiptHandle": "AQEBH/funAyVtu3wECpSFNHaYILfBJRb4qIkelbDu50ODkw41J3k5eAbDudao0+miVyJzq+ZmlmQkkkAv7bsqwCyw918o2414ftfzyY83Y4BeYQhIsKPE1oPOVFqmaXxuQUdUIn/mGBkpHr84W9MApM8achz1kkEj8yc1nIPigrolHprJFhbviBluR+4HOIEVy7cB89vFnvd+usfWW8/yJu0G+sP1SBPBtIIxTWFj3O78g9tvFIdmGxhuGf4FCV0vqWMHKSefzypYFXXMgf9oBtyhzLT3p3vgQNSJ88nlxk9EbVYgvWpndbDAyfVsNcm4zXpWwV73JXaScUNo6NFy2aZa31KZBLhYnZ7JGsWz4ct717tVQyonBq0EgeD5UMxQ2SRt8WsdWerFOK25NXiJ8GP1Q==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":23698,\"device\":\"51498287-94EC-4365-BE3C-EC7F94CD403C\",\"internalId\":\"691571E8-FEDC-4DAD-9EC8-DEEBDB93FDB5\",\"version\":\"1666147407.186967\",\"file\":\"23698/uploads/tickets/2022/10/18/691571E8-FEDC-4DAD-9EC8-DEEBDB93FDB5/1666147407_186967.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409122",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409123"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"2382639461613455514\",\"x-datadog-parent-id\":\"7914563476769708437\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "2dc916cf2b6a32427f91445c8d31e308",
+                "md5OfBody": "98ac83ebe74b7a78bd744c42ffd8b4fa",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "96bc70d0-af90-4f48-97fe-dc123c88f97a",
+                "receiptHandle": "AQEB6X7fDTVhLZsTokptce/1jvQNE2hbF0PSTrTxjw+U5IswlHhmGcy14I102G+Lqdzi2vwNx0ixwG03OF1z0Nhd+NEqrHcxA0rc2VHsILR5M37BcgbX7aSZy3tcZxF5CJjQquXhfNpM9zS/YNVOs1g5OCK23FTXf6+nPToaNDHUWZ/L/3r1fQwExqC5BmP5OvwYcpNjV5sFVz2ksPL6sw+H4TfKzJURGc/VLOrZgLGbhkXtzKVCBCGi5W/5LKOMoxUsgJx0FA4HTkuwmxOE8P/3+/gQbkJh9/uKBj84sBMjfk2lHyFsPMqn0tXHWVxAQyU9zDI5Hvj01Tv5iAgayQr8wJ/Wmng/lRodnxhRSXOteDW14WzJ0KK/Kc/dAicXrhUQ7EMdiEiDO0E1Kjevbg5H5Q==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":24483,\"device\":\"12DE6B15-6271-4A9E-A1D6-2D86E81E1642\",\"internalId\":\"9FD2FF65-DCB0-4D90-B636-DF9837FEA359\",\"version\":\"1666147406.867493\",\"file\":\"24483/uploads/tickets/2022/10/19/9FD2FF65-DCB0-4D90-B636-DF9837FEA359/1666147406_867493.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409131",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409133"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"8101885335011133167\",\"x-datadog-parent-id\":\"2559355853123285262\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "86ac456663f70b7c3b867a3c056b9428",
+                "md5OfBody": "bab8744b31744c97d2ce17592d835703",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "c3626396-735e-43ba-aa7b-00b59a613c6b",
+                "receiptHandle": "AQEBBZaBlWPJncMP9YV22Ia8ci2kCWxzG76dtSMKP5mGTv2zD80rheXUZUYVKHgGtt4FDLBc+/JQTc/tSZ3/fXCRlz1xsJGbBF3Xompo7xqePnC3yF0FO69h7z2h9eL348itpELoSAgEYhMCHSHVuLUM+IOBunFex67VzBpqf1vsWCHHhCJnMu1Lh1fD09ekJc67C3kD15vfkHYOwyBQ/GwzMxj5Pg9j3q384ea1ldJeMhH6wk3bWe6E7Z9KckPjP7I7XzAPdy+fBJ84GHmo4t0y3H+uMV51X+EGeGs3BmHu0UfWuf2A9jTVsSIvM+ZLtCW0ijYznWcBd8KLGnvQDOpTHqtKVLXiKsMxnvcd1JDsmkE1Jc3+vpl33o6nVZJDypYRfRX1xFWXKKHYn68kvvSpHw==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":22827,\"device\":\"E43E3C23-0298-4263-849C-DFBE90B08B9F\",\"internalId\":\"EB8B3345-048C-4252-AA3B-6058E5168ACF\",\"version\":\"1666147406.732303\",\"file\":\"22827/uploads/tickets/2022/10/19/EB8B3345-048C-4252-AA3B-6058E5168ACF/1666147406_732303.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409138",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409139"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"2382639461613455514\",\"x-datadog-parent-id\":\"1743282054309831383\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "a94334f8fd51590c709447107863dc17",
+                "md5OfBody": "c93275f71117edf26c111c039f87a7b9",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "6dae6273-f8f1-480b-95b3-ecc8701d70f9",
+                "receiptHandle": "AQEBfYh46h7pqvrz6JA6T5O/Z/ewcQXh287yO05ZVNJsO4NUYF2ox8yZxKng30Tur3mvLVfmuLz/Can/V+T91oRTUnQ7oLEU8w655IUHvR9Efbqm0gAj0H3DLbh4StLvTCqtHHYgYZVvXVwpEVl9pY3HU0yyszKc6CTISJlj+Xic2YavDpakJE4uCUpJ7WrOq4u1AbiDZhHAWDAACBHnHDRC1S5ffqgwiPfV2X2mHvffKr41Q7QWp8WJ8DhwLR4ZmZGY4nVHZ100iG7I0gRa35S2r60AvvM8om+sGo4NDj5gLKrPx/HSabJVFVUbrbMhPW3kYM9NVcEbEtZZOt0ojuBO65Aqzz8/DyFJnTfEwqQw8fwK113Bglj+bbyQQM6Da8LjRKJbyC0nZbhjhgQtRN8kTQ==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":24156,\"device\":\"DD1FB238-0793-499A-897E-437CA26F952C\",\"internalId\":\"36D76022-E85B-4397-8FA6-F95C1F13833C\",\"version\":\"1666147407.505318\",\"file\":\"24156/uploads/tickets/2022/10/18/36D76022-E85B-4397-8FA6-F95C1F13833C/1666147407_505318.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409202",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409203"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"3772617953667828656\",\"x-datadog-parent-id\":\"2203687635361332762\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "075cffb60a49fab52ae7f9da756cd3f5",
+                "md5OfBody": "7ff0cb5d2d0e7216d823af02b47ea85c",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "09954fff-d780-419e-92c5-abac01f86e1f",
+                "receiptHandle": "AQEBFZOeCwSCMQy0gXXmM53TBzAO2l7N6YpZ34gewqrreI7k8b0toFKI5kbG5utir95xqVp98//2qjex8yMFg5mKXB7Ex/wxm+BUINBkfwURQgzfyEFX6I0cL1+LfmdBB1pEp5o4gyUG9WECkje6qDbKWBJZ7ZKY7oaYdx4tDPjpNWgPyoI7tXLnHCfs7Phw3SMYQhSn0fswLJ7CsgXG0zbVHiUCJXONXv+ZZq8D0ihE9ZujmkDk3dn1LTtdsrziwpJMFTgRjHer4OU3YlxMc5PADrTT2foNhhSuipDOtXSa/4nweCxQVBnhrXzDsZJfRXdhex7K73rgb1Ur/DdHDog4S2RVdGqBvBkK3Q2I3GCimUyu6N0sBT7Aj7MbRtCkfcWCME1wHjlfXj7adGL6sLGsJw==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":9513,\"device\":\"B4C378AD-74BD-4F4A-A508-003BD6674315\",\"internalId\":\"0E057FC5-416A-43D2-AF5A-7F8921165A50\",\"version\":\"1666147406.978593\",\"file\":\"9513/uploads/tickets/2022/10/19/0E057FC5-416A-43D2-AF5A-7F8921165A50/1666147406_978593.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409379",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409380"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"3772617953667828656\",\"x-datadog-parent-id\":\"2038630300442753514\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "30dea6412106203c80a968b32b290a49",
+                "md5OfBody": "5da47884c8225296db4ba448213d734e",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "3ae91160-9a99-469a-a60a-f64955ddecd1",
+                "receiptHandle": "AQEBzRSsGsj7NSYSPOePs2zUgXzKf+dt0wDhi4ics6BTh1QbIenrWvtYWxJwBgyh9Kbcjoma5vTFGEdqHCPf6rgy80xwFCseI41/1mJeqtP974wDTc3UC+1OU3h0pANWn3+WIfSkAL79I1lAYVVyHDZOWi8yHCGAFveKa17i19JawGZpECWtjxZNGPo4UrIeYT0+yrUrpDRsnCFi9M6KMQxGJeTu/hrffyVACHJ4icFKZCjZ4O0yMKBFMQJXz4J/4hJd4W15g+hcwDuD0+8NuqnI88Ut3ankCgD1k7DgJSTVGaSCfhhGgdbwo9TGMIcBFKbvoRB9Zem8NStLluEpt0eymCH/ZR5t8Impm0l1eYQTQOVdPqp9RG47PHZu5ykJafnZzRucqPy/CkdF8Fo+UIrRbA==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":20963,\"device\":\"4AAFFF5E-3BE0-4E35-8BE3-BF20F576DECA\",\"internalId\":\"80FDF7FA-44FB-4F4C-B349-B2A66D2FCC2A\",\"version\":\"1666147407.604442\",\"file\":\"20963/uploads/tickets/2022/10/19/80FDF7FA-44FB-4F4C-B349-B2A66D2FCC2A/1666147407_604442.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409422",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409424"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"5842668996807776934\",\"x-datadog-parent-id\":\"7904065944425418150\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "d27a1d08d6d24be36cd8f46220f58702",
+                "md5OfBody": "22af24e475189d66137dc0a5ea936082",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "6f663709-b2d3-4392-a97e-c75ac03cf7a5",
+                "receiptHandle": "AQEBZQIXb8SwEtj+zV2i4xBsy5znPjjkvE5MX4f0gjP0yflOBq48HcxUIY49z4wp0cf42EvHZM8GJObtITpnRfAwZuQUZsKnOh6TOixoLQ0PvOq22sT1VYmG8X+xYtjf6wft206xPehz7sMUQZpYcglD+0nMjWFo3fcG7xgs/fre7CWnajxTssn4/PfGa/+bxqP1ZLJk6sTzpKvVKaQ8ebuZHAPUOtisroNK3GFEN04i1WYiCdQKLbQlytge8qGZe8xlcCVQGIfrq6JRkP1os45A43u1HH6YDxweg7g8+NtQy+hdZezLOQxxXllJcPo7mLjvxLGWcPSfz64/lv4O5WVRRtbchhubzqHXuKQMqb2Bp89KtU2K4BrnXCdwUqCT5+xUpEHVap+iXpc/FGWErfBiSQ==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":17338,\"device\":\"4B4A4A9D-1537-4F81-896F-903561493B29\",\"internalId\":\"DDF6017D-8B91-4EB7-9EBC-61767691DA77\",\"version\":\"1666147405.656053\",\"file\":\"17338/uploads/tickets/2022/10/19/DDF6017D-8B91-4EB7-9EBC-61767691DA77/1666147405_656053.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409426",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409428"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"8051952855698452999\",\"x-datadog-parent-id\":\"6193433489928026825\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "faa2d94188c2530b77341aa3e19ce2ae",
+                "md5OfBody": "6bef6747bf351263a65c47f6de1fb13d",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "dd565d3d-aaf6-486b-9966-1608cedcfb1f",
+                "receiptHandle": "AQEBBbw13TMNDlMADTLb4JbGDuA+BxXTAaehi/kPgw/u8yh8mJkNn2zz/ekEBpYP8B6d9XzPb8ll4FLL34jDu/CtPWj13eBUrfK5ydPXlqxls+fRi/B/1EotKE6Iv+KEGHCAIb8vSK5bkCuR68RJ60ygXskvC8Llkmd/hcKYA89eY0w0QofLGeF8QO/llOBLBrVdVkuuJkk2Gi4pPgTpLg60LZRa3cPkXipiOekXRCYGvycgaW754unKuOsdMM1sYZMQbabj8kRywjJ7EANWq+B+43DanSc0+tsAurO+s4RRyAi5Pq9Xhsf3BEedV0ZF9WBcyo9uCKQoN73yv7AkuAbcsq3spnx0X3EoY260nRHFIh75TvGDQvqUJg4MhOFHOBdeQIFqDJkkb7rZ4TCwvBjdEA==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":10893,\"device\":\"4538E374-A657-4EAC-98A3-92C32545B3BB\",\"internalId\":\"71681314-EE77-445C-8BC7-AEAF0238A52C\",\"version\":\"1666147406.850337\",\"file\":\"10893/uploads/tickets/2022/10/19/71681314-EE77-445C-8BC7-AEAF0238A52C/1666147406_850337.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409427",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409429"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"5842668996807776934\",\"x-datadog-parent-id\":\"3570111816077764602\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "aede75a00c8f32df124a3aceb00b95b6",
+                "md5OfBody": "688d46293e25eb97a965712f1cd148e3",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "4ec6bbd0-b88d-494c-8928-339a491aaebb",
+                "receiptHandle": "AQEBD36nP89ABboGwy8ujFZNZmZCXXX7sjv3kYvl+tfS3h2QvCY0sJZ8fmEP6PH+k66indA8Xv9HJZn1MDREtngvo/bbdYdTrvN2WGNSpI7I7FmFkL9KaKSfH1oB6ARSMfNAL1yzHHfowg8+pTQSS19q1ADH+f77RHkrETdCA+BFN1CInVBHzK87Vpcgo07AKEm2nmuBKApVt9GWoYTrudfhaAZh+i8GIrQ0At9foVzYRfZQTEQXg3TOhj1ghI6XaGAQqUQEwT9xI7MiH0fMx9Dg30SNxqBmElapL9kNhzOJOb3VSztoM6Jny1QmK6+A8yuDUHXbKmcbO5CXi7E+EifxiCbf16DwTnXeMCUysvif1WHfxvM3UmbFh8iyYpB9M7iGwVSCnYwTRslD2iOhgYLxmA==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":20470,\"device\":\"95B2FDB2-734F-4845-BAA4-FE76F687688A\",\"internalId\":\"64BCDE9F-3C8C-4DEC-892F-50F88092ED17\",\"version\":\"1666147093.523029\",\"file\":\"20470/uploads/tickets/2022/10/18/64BCDE9F-3C8C-4DEC-892F-50F88092ED17/1666147093_523029.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409469",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409471"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"8051952855698452999\",\"x-datadog-parent-id\":\"6273420586001951575\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "196ab9a40b7be862aa0e8a5d244307fd",
+                "md5OfBody": "2bc78fc672898b7c38f6c9ff1a34da84",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            },
+            {
+                "messageId": "9d5287c7-9bc4-43e9-bd47-df72412a648c",
+                "receiptHandle": "AQEBTs9jTF5w0N6SW+I69Q6ycKopE1DNUaBZZMbvL4pCiptUW0miWsUH55bDkKDM1l4E0raO6nTNl5wbPN2TwM6TMjNorCj6dDuMUPyDRWxKLlreRiY6Hp9Kd6j5kCized8bfedFyiXhazKrt6+musUGG67MHK/lwLdqYyS91qP4v3d9GRzdBKpBMgJHB/AulQvkYeYYgTr7idbt1/64QolM8HaUtdpOhvGoUYg/NnzzyqrQReBRZLmOKidlSft3feXfFnU1K6BGjPCNFSKtQjqXnDA1Hd3RRYq4fHq7zk3lQWYFPwEX3vXm4mNm+yqKLxzn0IApzSWyly/hijOAQi40f+7+J3ZxLAjrOw5r5cw4u6oYlXKkCtlYU9BiX1XbgkZt0ok5Rpy/CSt3pLe2kFNTvg==",
+                "body": "{\"swf_type\":0,\"bucket\":\"mb-pos-data\",\"locationId\":20470,\"device\":\"95B2FDB2-734F-4845-BAA4-FE76F687688A\",\"internalId\":\"64BCDE9F-3C8C-4DEC-892F-50F88092ED17\",\"version\":\"1666147091.269021\",\"file\":\"20470/uploads/tickets/2022/10/18/64BCDE9F-3C8C-4DEC-892F-50F88092ED17/1666147091_269021.json\"}",
+                "attributes": {
+                    "ApproximateReceiveCount": "1",
+                    "SentTimestamp": "1666147409488",
+                    "SenderId": "AROAITN4JA3ABFLZBR2XW:mb-ops-prod-queue-filehandler",
+                    "ApproximateFirstReceiveTimestamp": "1666147409490"
+                },
+                "messageAttributes": {
+                    "_datadog": {
+                        "stringValue": "{\"x-datadog-trace-id\":\"8051952855698452999\",\"x-datadog-parent-id\":\"7478196245804520641\",\"x-datadog-sampled\":\"1\",\"x-datadog-sampling-priority\":\"1\"}",
+                        "binaryValue": null,
+                        "stringListValues": [],
+                        "binaryListValues": [],
+                        "dataType": "String"
+                    }
+                },
+                "md5OfMessageAttributes": "db8e995b2a4d112cdabf4d5bc7d047d1",
+                "md5OfBody": "3aa4e42bdd3cc6c59a44b2dc518a6e35",
+                "eventSource": "aws:sqs",
+                "eventSourceARN": "arn:aws:sqs:us-east-1:592528031478:mb-lambda-queue",
+                "awsRegion": "us-east-1"
+            }
+        ]
+    }
+}
