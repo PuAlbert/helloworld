@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/PuAlbert/helloworld#readme",
   "dependencies": {
-    "@PuAlbert/sayhi": "latest",
     "@babel/core": "7.19.6",
     "@babel/plugin-transform-modules-commonjs": "7.19.6",
     "@babel/preset-env": "7.19.4",

@@ -1,0 +1,84 @@
+Arguments: 
+  /Users/apu/.nvm/versions/node/v14.19.3/bin/node /Users/apu/.nvm/versions/node/v14.19.3/bin/yarn
+
+PATH: 
+  /Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/bin:/Users/apu/go/bin:/opt/homebrew/opt/python@3.10/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/mysql@5.7/bin:/Users/apu/.nvm/versions/node/v14.19.3/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/bin:/Users/apu/go/bin:/opt/homebrew/opt/python@3.10/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/opt/mysql@5.7/bin:/Users/apu/.nvm/versions/node/v14.19.3/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/fzf/bin:.:.
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://npm.pkg.github.com/@PuAlbert%2fsayhi: unauthenticated: User cannot be authenticated with the token provided.
+      at Request.params.callback [as _callback] (/Users/apu/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/apu/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/apu/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/apu/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "helloworld",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --watch",
+      "test:report": "jest --coverage",
+      "prepare": "husky install",
+      "format": "prettier --write ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PuAlbert/helloworld.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/PuAlbert/helloworld/issues"
+    },
+    "homepage": "https://github.com/PuAlbert/helloworld#readme",
+    "dependencies": {
+      "@PuAlbert/sayhi": "latest",
+      "@babel/core": "7.19.6",
+      "@babel/plugin-transform-modules-commonjs": "7.19.6",
+      "@babel/preset-env": "7.19.4",
+      "@middy/core": "3.6.2",
+      "@middy/http-cors": "3.6.2",
+      "@middy/http-error-handler": "3.6.2",
+      "@types/jest": "29.2.0",
+      "babel-jest": "29.2.1",
+      "hash": "0.2.1",
+      "http-errors": "2.0.0",
+      "lodash": "4.17.21",
+      "moment": "2.29.4"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "17.0.3",
+      "@commitlint/config-conventional": "17.0.3",
+      "@typescript-eslint/eslint-plugin": "5.33.0",
+      "@typescript-eslint/parser": "5.33.0",
+      "eslint": "8.21.0",
+      "husky": "8.0.1",
+      "jest": "29.2.1",
+      "prettier": "2.7.1",
+      "serverless-offline": "10.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
