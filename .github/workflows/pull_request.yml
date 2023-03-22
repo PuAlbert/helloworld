@@ -2,7 +2,7 @@ name: Albert's Hello world
 
 on:
   pull_request:
-    branches: ["main"]
+    branches: ["test"]
     paths:
       - "migrations/**.js"
 
