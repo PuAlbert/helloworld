@@ -37,7 +37,7 @@ function run() {
     return __awaiter(this, void 0, void 0, function* () {
         const fakeFile = ["/migrations/a.js", "/migrations/b.js"];
         core.info(`All:${fakeFile.join(" ")}`);
+        core.setOutput('all', fakeFile.join(" "));
     });
 }
 run();
-//# sourceMappingURL=checkNameConvention.js.map
