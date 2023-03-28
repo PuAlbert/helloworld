@@ -1,5 +1,5 @@
 import * as core from '@actions/core';
-import { context, GitHub } from '@actions/github'
+// import { context, GitHub } from '@actions/github'
 
 
 async function run(): Promise<void> {
