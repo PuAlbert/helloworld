@@ -32,6 +32,6 @@ jobs:
           echo "${{ steps.abc.outputs.added_modified }}"
       - name: Check Name
         id: check-name
-        uses: "./.github/actions/check-name-action"
+        uses: "./.github/actions/check-name"
         with:
           token: 111222333
