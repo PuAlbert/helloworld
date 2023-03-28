@@ -33,10 +33,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core = __importStar(require("@actions/core"));
-// import { context, GitHub } from '@actions/github'
+const github_1 = require("@actions/github");
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
-        // const token = new GitHub(core.getInput('token', {required: true}))
+        const token = (0, github_1.getOctokit)(core.getInput('token', { required: true }));
+        core.info(`token:${token}`);
         const files = core.getInput("files", { required: true });
         core.info(`111:${core.getInput("token")}`);
         core.info(`222:${core.getInput("files")}`);
