@@ -2,7 +2,7 @@ name: Check Name Convention
 description: Check the given filename
 runs:
   using: node16
-  main: dist/checkNameConvention.js
+  main: ../../../dist/checkNameConvention.js
 inputs:
   token:
     description: >
