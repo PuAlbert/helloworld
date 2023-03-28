@@ -17,7 +17,7 @@ async function run(): Promise<void> {
         }
         const isPassCheck = checkRules(filesArray);
         if (!isPassCheck) {
-            core.error("-1");
+            core.setFailed("-1");
         } else {
             core.info("pass");
         }
@@ -45,12 +45,13 @@ const checkRules = (toCheckFiles: string[]) => {
             const checkRet = rule.exec(file);
             if (checkRet) {
                 // console.log(checkRet);
+                core.info(`file:${file} pass`);
                 isFilePass = true;
                 break;
             }
         }
         if (!isFilePass) {
-            core.info(`file:${file} must obey the name convention`);
+            core.error(`file:${file} must obey the name convention`);
             isPassCheck = false;
         }
     }
