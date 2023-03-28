@@ -9,6 +9,10 @@ inputs:
       GitHub token for GitHub API requests.
       Users shouldn't need to set this themselves.
     required: true
+  files:
+    description: >
+      the files to check
+    required: true
 outputs:
   all:
     description: >

@@ -18,26 +18,28 @@ jobs:
       - name: Install dependancies prior to build
         run: npm ci
       - uses: jitterbit/get-changed-files@v1
-        id: abc
+        id: modified-files
         with:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Printing
-        run: |
-          echo "All:"
-          echo "${{ steps.abc.outputs.all }}"
-          echo "Added:"
-          echo "${{ steps.abc.outputs.added }}"
-          echo "Removed:"
-          echo "${{ steps.abc.outputs.removed }}"
-          echo "Renamed:"
-          echo "${{ steps.abc.outputs.renamed }}"
-          echo "Modified:"
-          echo "${{ steps.abc.outputs.modified }}"
-          echo "Added+Modified:"
-          echo "${{ steps.abc.outputs.added_modified }}"
+      # - name: Printing
+      #   id: print-modified-files
+      #   run: |
+      #     echo "All:"
+      #     echo "${{ steps.abc.outputs.all }}"
+      #     echo "Added:"
+      #     echo "${{ steps.abc.outputs.added }}"
+      #     echo "Removed:"
+      #     echo "${{ steps.abc.outputs.removed }}"
+      #     echo "Renamed:"
+      #     echo "${{ steps.abc.outputs.renamed }}"
+      #     echo "Modified:"
+      #     echo "${{ steps.abc.outputs.modified }}"
+      #     echo "Added+Modified:"
+      #     echo "${{ steps.abc.outputs.added_modified }}"
       - name: Check Name
         id: check-name
         uses: "./.github/actions/check-name"
         with:
           token: 111222333
+          files: ${{steps.modified-files.outputs.modified}}
