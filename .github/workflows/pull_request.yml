@@ -30,3 +30,8 @@ jobs:
           echo "${{ steps.abc.outputs.modified }}"
           echo "Added+Modified:"
           echo "${{ steps.abc.outputs.added_modified }}"
+      - name: Check Name
+        id: check-name
+        uses: "./.github/actions/check-name-action"
+        with:
+          token: 111222333
