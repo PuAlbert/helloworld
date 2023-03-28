@@ -1,0 +1,1 @@
+{"version":3,"file":"checkNameConvention.js","sourceRoot":"","sources":["../checkNameConvention.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,oDAAsC;AAGtC,SAAe,GAAG;;QACd,MAAM,QAAQ,GAAG,CAAC,kBAAkB,EAAE,kBAAkB,CAAC,CAAC;QAC1D,IAAI,CAAC,IAAI,CAAC,OAAO,QAAQ,CAAC,IAAI,CAAC,GAAG,CAAC,EAAE,CAAC,CAAC;IAC3C,CAAC;CAAA;AAED,GAAG,EAAE,CAAC"}
