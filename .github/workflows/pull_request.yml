@@ -11,6 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.1.0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "latest"
+          registry-url: "https://registry.npmjs.org"
+      - name: Install dependancies prior to build
+        run: npm ci
       - uses: jitterbit/get-changed-files@v1
         id: abc
         with:
