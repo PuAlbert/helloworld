@@ -1,6 +1,9 @@
-name: Albert's Rollback
+name: Albert's Rollback test
 
 on:
+  pull_request:
+    branches: ["main"]
+
   workflow_dispatch:
     inputs:
       rollback-file:
@@ -8,11 +11,8 @@ on:
         required: true
 
 jobs:
-  publish:
+  rollback:
     runs-on: ubuntu-latest
     steps:
-      - name: echo inputs
-        run: |
-          echo "input:"
-          echo ${{github.event_name.inputs.rollback-file}}
+      - run: echo "filename:${{ github.event_name.inputs.rollback-file }}"
         # shell: bash
