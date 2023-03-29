@@ -1,4 +1,6 @@
-# Say Hi
+# SayHI
+
+#### this is a npm package which for test auto package by CI/CD
 
 ### Purpose
 

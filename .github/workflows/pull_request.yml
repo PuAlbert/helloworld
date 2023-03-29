@@ -1,0 +1,45 @@
+name: Albert's Hello world
+
+on:
+  pull_request:
+    branches: ["test"]
+    paths:
+      - "migrations/**.js"
+
+jobs:
+  checkAndRunDDL:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: "https://registry.npmjs.org"
+      - name: Install dependancies prior to build
+        run: npm ci
+      - uses: jitterbit/get-changed-files@v1
+        id: modified-files
+        with:
+          format: space-delimited
+          token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Printing
+      #   id: print-modified-files
+      #   run: |
+      #     echo "All:"
+      #     echo "${{ steps.abc.outputs.all }}"
+      #     echo "Added:"
+      #     echo "${{ steps.abc.outputs.added }}"
+      #     echo "Removed:"
+      #     echo "${{ steps.abc.outputs.removed }}"
+      #     echo "Renamed:"
+      #     echo "${{ steps.abc.outputs.renamed }}"
+      #     echo "Modified:"
+      #     echo "${{ steps.abc.outputs.modified }}"
+      #     echo "Added+Modified:"
+      #     echo "${{ steps.abc.outputs.added_modified }}"
+      - name: Check Name
+        id: check-name
+        uses: "./.github/actions/check-migration-name"
+        with:
+          files: ${{steps.modified-files.outputs.added_modified}}

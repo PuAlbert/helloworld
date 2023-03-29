@@ -1,0 +1,15 @@
+name: Check Name Convention
+description: Check the given filename
+runs:
+  using: node16
+  main: ../../../dist/checkNameConvention.js
+inputs:
+  files:
+    description: >
+      the files to check
+    required: true
+outputs:
+  all:
+    description: >
+      print files.
+
