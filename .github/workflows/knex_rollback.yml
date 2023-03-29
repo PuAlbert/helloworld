@@ -12,5 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo inputs
-        run: "echo ${{github.event_name.inputs.rollback-file}}"
-        shell: bash
+        run: |
+          echo "input:"
+          echo ${{github.event_name.inputs.rollback-file}}
+        # shell: bash
