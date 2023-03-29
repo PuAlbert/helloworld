@@ -14,4 +14,4 @@ jobs:
     steps:
       - name: echo inputs
       - run: |
-        echo ${github.event_name.inputs.rollback-file}
+        echo ${{github.event_name.inputs.rollback-file}}
