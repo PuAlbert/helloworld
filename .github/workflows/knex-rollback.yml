@@ -1,4 +1,4 @@
-name: Albert's Publish
+name: Albert's Rollback
 
 on:
   workflow-dispatch:
