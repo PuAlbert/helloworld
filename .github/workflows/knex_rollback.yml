@@ -14,5 +14,5 @@ jobs:
   rollback:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "filename:${{ github.event_name.inputs.rollback-file }}"
+      - run: echo "filename: ${{ github.event_name.inputs.rollback-file }} ${{ github.event_name }}"
         # shell: bash
