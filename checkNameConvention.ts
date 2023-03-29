@@ -7,7 +7,7 @@ const nameRules = [
     /\d+_rename_(.*?)_to_(.*?)_(.*?)_table/
 ];
 
-async function run(): Promise<void> {
+function run() {
     const files: string = core.getInput("files");
     core.info(`inputFiles :${core.getInput("files")}`);
     if (files) {
