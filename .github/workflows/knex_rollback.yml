@@ -1,0 +1,18 @@
+name: Albert's Rollback
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+      rollback-file:
+        description: the file to rollback
+        required: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo inputs
+        run: "echo ${{github.event_name.inputs.rollback-file}}"
+        shell: bash
