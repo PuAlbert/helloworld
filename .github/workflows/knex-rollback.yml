@@ -1,0 +1,17 @@
+name: Albert's Publish
+
+on:
+  workflow-dispatch:
+    inputs:
+      rollback-file:
+        description: the file to rollback
+        required: true
+        type: string
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo inputs
+      - run: |
+        echo ${github.event_name.inputs.rollback-file}
