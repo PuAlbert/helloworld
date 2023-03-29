@@ -9,10 +9,10 @@ const nameRules = [
 
 async function run(): Promise<void> {
     const files: string = core.getInput("files");
-    core.info(`inputFiles:${core.getInput("files")}`);
+    core.info(`inputFiles :${core.getInput("files")}`);
     if (files) {
         const filesArray: string[] = files.split(" ").filter(file => file.startsWith("migrations/"));
-        core.info(`migration files:${filesArray.join(" ")}`);
+        core.info(`migration files :${filesArray.join(" ")}`);
         const isPassCheck: boolean = checkRules(filesArray);
         if (!isPassCheck) {
             core.setFailed("-1");
