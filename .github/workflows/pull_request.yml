@@ -5,12 +5,14 @@ on:
     branches: ["test"]
     paths:
       - "migrations/**.js"
-  environment:
-    type: choice
-    description: Select the environment
-      options:
-        - development
-        - production
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Select the environment
+          options:
+            - development
+            - production
 
 jobs:
   checkAndRunDDL:
