@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      # - run: echo "filename: ${{ github.event_name.inputs.rollbackFile }} ${{ github.event_name }} "
+      - run: echo "filename ${{ github.event_name.inputs.rollbackFile }} ${{ github.event_name }} "
         # shell: bash
