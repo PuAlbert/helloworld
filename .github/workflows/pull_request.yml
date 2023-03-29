@@ -5,6 +5,12 @@ on:
     branches: ["test"]
     paths:
       - "migrations/**.js"
+  environment:
+    type: choice
+    description: Select the environment
+      options:
+        - development
+        - production
 
 jobs:
   checkAndRunDDL:
