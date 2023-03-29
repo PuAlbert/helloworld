@@ -40,6 +40,6 @@ jobs:
       #     echo "${{ steps.abc.outputs.added_modified }}"
       - name: Check Name
         id: check-name
-        uses: "./.github/actions/check-name"
+        uses: "./.github/actions/check-migration-name"
         with:
           files: ${{steps.modified-files.outputs.added_modified}}
