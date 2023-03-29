@@ -1,7 +1,7 @@
 name: Albert's Rollback
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
     inputs:
       rollback-file:
         description: the file to rollback
