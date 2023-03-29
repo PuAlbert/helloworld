@@ -6,7 +6,6 @@ on:
       rollback-file:
         description: the file to rollback
         required: true
-        type: string
 
 jobs:
   publish:
