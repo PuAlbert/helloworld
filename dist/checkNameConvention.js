@@ -45,9 +45,7 @@ function run() {
         core.info(`inputFiles:${core.getInput("files")}`);
         if (files) {
             const filesArray = files.split(" ").filter(file => file.startsWith("migrations/"));
-            for (let file of filesArray) {
-                core.info(`file:${file}`);
-            }
+            core.info(`migration files:${filesArray.join(" ")}`);
             const isPassCheck = checkRules(filesArray);
             if (!isPassCheck) {
                 core.setFailed("-1");
@@ -72,12 +70,11 @@ function run() {
 // }
 const checkRules = (toCheckFiles) => {
     let isPassCheck = true;
-    for (const file of toCheckFiles) {
+    toCheckFiles.forEach(file => {
         let isFilePass = false;
         for (const rule of nameRules) {
             const checkRet = rule.exec(file);
             if (checkRet) {
-                // console.log(checkRet);
                 core.info(`file:${file} pass`);
                 isFilePass = true;
                 break;
@@ -87,7 +84,7 @@ const checkRules = (toCheckFiles) => {
             core.error(`file:${file} must obey the name convention`);
             isPassCheck = false;
         }
-    }
+    });
     return isPassCheck;
 };
 run();
