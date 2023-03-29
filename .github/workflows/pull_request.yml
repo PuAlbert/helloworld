@@ -8,11 +8,14 @@ on:
   workflow_dispatch:
     inputs:
       environment:
+        description: "Environment to deploy to"
+        required: true
+        default: "Development"
         type: choice
-        description: Select the environment
         options:
-          - development
-          - production
+          - "Certification"
+          - "Development"
+          - "Sandbox"
 
 jobs:
   checkAndRunDDL:
