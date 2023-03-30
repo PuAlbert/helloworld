@@ -1,6 +1,6 @@
 const config = {
-  verbose: true,
-  testEnvironment: "node",
+    verbose: true,
+    testEnvironment: "node",
 };
 
 module.exports = config;
