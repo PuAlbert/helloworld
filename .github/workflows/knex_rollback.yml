@@ -10,7 +10,15 @@ on:
         required: true
 
 jobs:
-  rollback:
+  test-db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print DB_CONFIG
+        env:
+          DB_CONFIG: ${{ secrets.DB_CONFIG }}
+        run: |
+          echo "DB_CONFIG: $DB_CONFIG"
+  rollback-test:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
