@@ -18,6 +18,8 @@ jobs:
           DB_CONFIG: ${{ secrets.DB_CONFIG }}
         run: |
           echo "DB_CONFIG: $DB_CONFIG"
+          echo "$DB_CONFIG" > config.txt
+          cat config.txt
   rollback-test:
     runs-on: ubuntu-latest
     steps:
