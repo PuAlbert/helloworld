@@ -1,18 +1,28 @@
-name: Albert's Rollback
+name: Albert's Rollback test
 
 on:
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
     inputs:
-      rollback-file:
+      rollbackFile:
         description: the file to rollback
         required: true
 
 jobs:
-  publish:
+  test-db:
     runs-on: ubuntu-latest
     steps:
-      - name: echo inputs
+      - name: Print DB_CONFIG
+        env:
+          DB_CONFIG: ${{ secrets.DB_CONFIG }}
         run: |
-          echo "input:"
-          echo ${{github.event_name.inputs.rollback-file}}
+          echo "DB_CONFIG: $DB_CONFIG"
+          echo "$DB_CONFIG" > config.txt
+          cat config.txt
+  rollback-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "filename ${{ github.event.inputs.rollbackFile }} . "
         # shell: bash
